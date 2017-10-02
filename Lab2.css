@@ -1,0 +1,62 @@
+/* Lab 2 */
+/* Author : Wataru Sato */
+
+.content{
+    top: 0px;
+    border-left: solid 3px black;
+    margin: 20px 240px;
+    padding: 10px;
+    width: auto;
+    background-color: white;
+}
+
+#leftnav{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: dashed 1px black;
+    padding: 0px 10px;
+    width: 180px;
+    background-color: white;
+}
+
+#rightnav{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: dashed 1px black;
+    padding: 0px 10px;
+    width: 180px;
+    background-color: white;
+}
+
+body{
+    background-color: #1C807F;
+    margin: 0px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: grey;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    font-family: sans-serif;
+    color: #1B774B;
+    margin: 3px;
+}
+
+p{
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+
+a{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #1C807F;
+    text-decoration-line: none
+}
