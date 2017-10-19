@@ -1,0 +1,29 @@
+#button {
+    background-color: #008CBA;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#button:hover {
+    border: solid 2px #008CBA;
+    color: #008CBA;
+    background-color: white;
+}
+
+body {
+    margin: 20px;
+}
+
+td {
+    width: 150px;
+    height: 200px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 60px;
+}
+
+button {
+    font-size: 18px;
+}

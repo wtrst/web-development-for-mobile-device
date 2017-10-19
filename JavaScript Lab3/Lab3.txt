@@ -1,0 +1,44 @@
+JavaScript Lab 3
+
+
+Q1
+    a : dogdeer
+    
+    b : girls.concat(boys)
+    
+    c : arr = [20, 30, 4, 9, 16]
+    
+    d : sum = 270
+    
+        (after fixed the condition of loop)
+        for (var i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+    
+    e : 9
+        mi = 1 m = 9
+
+
+Q2
+    function sumArray(inArr, size){
+        'use strict'
+        
+        var arr = new Array(size);
+        arr = inArr;
+        var sum = 0;
+        var add = 0;
+        
+        
+        for (var i = 0; i < size; i++) {
+            for (var j = 0; j < size; j++) {
+                sum = sum + arr[j] + add;
+            }
+            add ++
+        }
+        
+        return sum;
+    }
+
+
+Q3
+    Reference other files(puzzle.html, puzzle.js, puzzle.css)

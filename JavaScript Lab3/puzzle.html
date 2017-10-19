@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href=puzzle.css>
+    <title>Sliding Puzzle</title>
+</head>
+
+<body>
+    <h1>Sliding Puzzle</h1>
+    <table>
+        <tr>
+            <td id="plc0" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc1" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc2" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+        </tr>
+        <tr>
+            <td id="plc3" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc4" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc5" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+        </tr>
+        <tr>
+            <td id="plc6" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc7" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+            <td id="plc8" onclick="getId(this)" onmouseover="changeColor(this)" onmouseout="returnColor(this)"></td>
+        </tr>
+    </table>
+    <p id="cnt"></p>
+    <p id="strtTime"></p>
+    <p id="endTime"></p>
+    <button id="button" onclick=location=URL>Restart Game</button>
+
+    <script type="text/javascript" src="puzzle.js"></script>
+</body>
+
+</html>
