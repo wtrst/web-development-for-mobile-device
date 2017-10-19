@@ -277,14 +277,33 @@ function fizzBuzz(arg1, arg2) {
     String(ary);
 
     for (var k = 0; k < size; k++) {
-        if ((k % 15 === 0) && (k / 15 >= 1)) {
+        if (((k + 1) % 15 === 0) && ((k + 1) / 15 >= 1)) {
             ary[k] = "FizzBuzz";
-        } else if ((k % 3 === 0) && (k / 3 >= 1)) {
+        } else if (((k + 1) % 3 === 0) && ((k + 1) / 3 >= 1)) {
             ary[k] = "Fizz";
-        } else if ((k % 5 === 0) && (k / 5 >= 1)) {
+        } else if (((k + 1) % 5 === 0) && ((k + 1) / 5 >= 1)) {
             ary[k] = "Buzz";
         }
     }
 
     return ary;
+}
+
+// No.15
+function countClumps(arg) {
+    "use strict";
+
+    var size = arg.length;
+    var ary = new Array(size);
+    var cnt = 0;
+
+    ary = arg;
+
+    for (var i = 0; i < size; i++) {
+        if ((ary[i] === ary[i - 1]) && (ary[i] !== ary[i - 2])) {
+            cnt++;
+        }
+    }
+
+    return cnt;
 }
