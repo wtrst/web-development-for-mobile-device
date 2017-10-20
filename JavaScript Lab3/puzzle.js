@@ -59,14 +59,6 @@ function dispNum() {
         var eSec = eTime.getSeconds();
         document.getElementById("endTime").innerHTML = "End Time : " + eHour + ":" + eMin + ":" + eSec;
 
-        
-// ******* EXTRA **********************
-//        var score = (eHour * 3600 + eMin * 60 + eSec) - (sHour * 3600 + sMin * 60 + sSec)
-//        var scoreH = Math.floor(score / 3600);
-//        var scoreM = Math.floor((score - scoreH) / 60);
-//        var scoreS = 
-//        document.getElementById("score").innerHTML = "Score : " + Math.floor(score / 3600) + ":" + (score / 60) + ":" + (score / 3600);
-// ***********************************
     }
 }
 
