@@ -1,0 +1,294 @@
+/*       Author : Wataru Sato */
+
+/* Created Date : 27 Oct 2017 */
+
+.top {
+    background-color: #292929;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 30px;
+}
+
+.title {
+    font-family: Taken by Vultures Demo;
+    src: url("fonts/Taken%20by%20Vultures%20Demo.otf");
+
+    /*    font-size: 120px;*/
+    font-size: 13vw;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    margin-top: 29vh;
+    margin-bottom: 29vh;
+}
+
+.top-font {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+
+    font-size: 1.5vw;
+    color: #f6484f;
+    text-align: center;
+    margin: 0px;
+}
+
+.parallax_about {
+    background-image: url("img/about_img.jpg");
+    min-height: 150vh;
+    min-width: 100vw;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.title_about {
+    font-family: Taken by Vultures Demo;
+    src: url("fonts/Taken%20by%20Vultures%20Demo.otf");
+
+    font-size: 12vw;
+    color: #ffffff;
+    padding: 0px;
+    text-align: right;
+    line-height: normal;
+    padding-right: 12vw;
+    padding-top: 33vh;
+}
+
+.img_about {
+    border-radius: 50%;
+    width: 20vw;
+    height: 41vh;
+}
+
+.td_about {
+    padding: 2vh 2vw;
+}
+
+.parallax_work {
+    background-image: url("img/work_img.jpg");
+    min-height: 150vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.title_work {
+    font-family: Taken by Vultures Demo;
+    src: url("fonts/Taken%20by%20Vultures%20Demo.otf");
+
+    font-size: 12vw;
+    color: #f6484f;
+    padding: 0px;
+    text-align: left;
+    line-height: normal;
+    padding-left: 12vw;
+    padding-top: 33vh;
+}
+
+.inf_work {
+    padding: 2vh 0vw;
+    margin: 0vh 20vw;
+}
+
+.tr_work {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.td_work {
+    width: 17vw;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding: 1vh 0vw;
+}
+
+.parallax_contact {
+    background-image: url("img/contact_img.jpg");
+    min-height: 150vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.title_contact {
+    font-family: Taken by Vultures Demo;
+    src: url("fonts/Taken%20by%20Vultures%20Demo.otf");
+
+    font-size: 12vw;
+    color: #292929;
+    padding: 0px;
+    text-align: right;
+    line-height: normal;
+    padding-right: 12vw;
+    padding-top: 33vh;
+}
+
+.inf {
+    height: 100vh;
+    background-color: white;
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    font-size: 24px;
+}
+
+.emp {
+    font-size: 2vw;
+    font-family: GlossAndBloom;
+    src: url("fonts/Gloss_And_Bloom.ttf")
+}
+
+.a_menu {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+
+    font-size: 1.5vw;
+    color: #f6484f;
+}
+
+.a_top {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 95vh;
+    left: 95vw;
+    text-align: center;
+    background-color: #292929;
+    height: 40px;
+    width: 60px;
+    padding-top: 15px;
+
+}
+
+.logos {
+    font-family: Social Circles;
+    src: url("fonts/Social%20Circles%20v1.1.otf");
+    font-size: 12vw;
+    color: #292929;
+    cursor: pointer;
+}
+
+.email {
+    display: none;
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    font-size: 2vw;
+    color: #f6484f;
+    padding: 1vw;
+}
+
+.bubble {
+    position: relative;
+    background: #ffffff;
+    border-radius: .4em;
+    border: 5px solid #f6484f;
+    width: 18vw;
+    /*    height: 10vh;*/
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border: 18px solid transparent;
+    border-bottom-color: #f6484f;
+    border-top: 0;
+    border-right: 0;
+    margin-left: -9px;
+    margin-top: -18px;
+}
+
+
+body {
+    margin: 0px;
+    width: 100vw;
+}
+
+nav {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    font-size: 1.5vw;
+    color: #f6484f;
+    margin-bottom: 0px
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    text-align: center;
+    padding: 5vh 0vw;
+    color: #292929;
+    font-size: 2vw;
+}
+
+h2 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    color: #292929;
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 0vw 2vw;
+}
+
+footer {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: #292929;
+    height: 5vh;
+    width: 100vw;
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
