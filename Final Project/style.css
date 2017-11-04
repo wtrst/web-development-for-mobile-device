@@ -1,5 +1,4 @@
 /*       Author : Wataru Sato */
-
 /* Created Date : 27 Oct 2017 */
 
 .top {
@@ -7,7 +6,7 @@
     height: 100vh;
     width: 100vw;
     margin: 0px;
-    padding: 30px;
+    padding-top: 2vh;
 }
 
 .title {
@@ -31,6 +30,31 @@
     color: #f6484f;
     text-align: center;
     margin: 0px;
+}
+
+.inf {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+    font-size: 24px;
+}
+
+.a_menu {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+
+    font-size: 1.5vw;
+    color: #f6484f;
+}
+
+.a_top {
+    font-family: Abel;
+    src: url("fonts/Abel-Regular.ttf");
+
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .parallax_about {
@@ -65,6 +89,12 @@
 
 .td_about {
     padding: 2vh 2vw;
+}
+
+.emp {
+    font-size: 2vw;
+    font-family: GlossAndBloom;
+    src: url("fonts/Gloss_And_Bloom.ttf")
 }
 
 .parallax_work {
@@ -130,36 +160,6 @@
     line-height: normal;
     padding-right: 12vw;
     padding-top: 33vh;
-}
-
-.inf {
-    height: 100vh;
-    background-color: white;
-    font-family: Abel;
-    src: url("fonts/Abel-Regular.ttf");
-    font-size: 24px;
-}
-
-.emp {
-    font-size: 2vw;
-    font-family: GlossAndBloom;
-    src: url("fonts/Gloss_And_Bloom.ttf")
-}
-
-.a_menu {
-    font-family: Abel;
-    src: url("fonts/Abel-Regular.ttf");
-
-    font-size: 1.5vw;
-    color: #f6484f;
-}
-
-.a_top {
-    font-family: Abel;
-    src: url("fonts/Abel-Regular.ttf");
-
-    font-size: 18px;
-    color: #ffffff;
 }
 
 .sticky {
@@ -288,7 +288,7 @@ footer {
     color: #ffffff;
     background-color: #292929;
     height: 5vh;
-    width: 100vw;
+    width: 97vw;
     padding-top: 2vh;
     padding-left: 3vw;
 }
